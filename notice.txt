@@ -1,0 +1,10 @@
+1)Placer les fichiers.java dans un package sous eclipse.
+
+2)Compiler et exécuter le fichier Main.java : vous obtenez une erreur mais le fichier sera visible dans le menu de l'étape suivante.
+
+3)Accéder au menu "Run > Run Configurations", y choisir Main , dans le sous menu "Arguments" écrire dans le cadre "Program Arguments" la location du fichier texte du tableau de
+fréquence des caractères puis la location du fichier texte contenant le texte à coder séparés d'un espace. Exemple : "D:\IUT\Algo\freq.txt D:\IUT\Algo\texteSE.txt"
+
+4)Compiler et exécuter le fichier Main.java, si il y a toujours une erreur, il faut changer l'encodage de Eclipse en utf-8:
+-accéder au menu "Window > Preferences > General > Content Types"
+-pour chaque type, taper "utf-8" en tant que "defaut encoding" et cliquer sur update, relancer eclipse avant de relancer l'exécution.
